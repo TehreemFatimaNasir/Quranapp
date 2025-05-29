@@ -41,7 +41,7 @@ class _MysplashscreenState extends State<Mysplashscreen> {
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => const  buttonscreen(),
+            builder: (context) =>   buttonscreen(),
           ),
         );
       },
@@ -54,7 +54,7 @@ class _MysplashscreenState extends State<Mysplashscreen> {
       body: Container(
         width: double.infinity,
         height: double.infinity,
-        decoration: const BoxDecoration(
+        decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [Color(0xff2193b0), Color(0xff6dd5ed)],
             begin: Alignment.topLeft,
