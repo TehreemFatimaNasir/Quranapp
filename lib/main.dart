@@ -129,7 +129,7 @@ class _SurahScreenState extends State<SurahScreen> {
 class detailsurah extends StatefulWidget {
  var surahnumber;
 
-  // Positional constructor like your teacher's
+  
   detailsurah(this.surahnumber, {super.key});
 
   @override
