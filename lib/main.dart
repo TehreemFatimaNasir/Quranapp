@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Mysplashscreen(),
+      home:  Mysplashscreen(),
     );
   }
 }
@@ -41,7 +41,7 @@ class _MysplashscreenState extends State<Mysplashscreen> {
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => const  buttonscreen(),
+            builder: (context) =>   buttonscreen(),
           ),
         );
       },
@@ -54,7 +54,7 @@ class _MysplashscreenState extends State<Mysplashscreen> {
       body: Container(
         width: double.infinity,
         height: double.infinity,
-        decoration: const BoxDecoration(
+        decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [Color(0xff2193b0), Color(0xff6dd5ed)],
             begin: Alignment.topLeft,
@@ -129,7 +129,7 @@ class _SurahScreenState extends State<SurahScreen> {
 class detailsurah extends StatefulWidget {
  var surahnumber;
 
-  // Positional constructor like your teacher's
+  
   detailsurah(this.surahnumber, {super.key});
 
   @override
