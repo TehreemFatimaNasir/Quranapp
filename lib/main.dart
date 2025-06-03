@@ -36,7 +36,7 @@ class _MysplashscreenState extends State<Mysplashscreen> {
   void initState() {
     super.initState();
     Timer(
-      const Duration(seconds: 3),
+       Duration(seconds: 3),
       () {
         Navigator.pushReplacement(
           context,
